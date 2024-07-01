@@ -8,7 +8,7 @@ import { MdEmail, MdMessage } from "react-icons/md";
 
 function Contact() {
   return (
-    <section>
+    <section className="mb-4">
       <Container>
         <div
           className={`${classes.container} d-flex flex-column flex-md-row gap-2`}
