@@ -1,0 +1,20 @@
+.App {
+  position: relative;
+  overflow: clip;
+}
+
+.App > :nth-child(1) {
+  background: var(--sailor-blue);
+  position: relative;
+}
+
+.white-gradient {
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(255, 255, 255, 0.25);
+  filter: blur(100px);
+  border-radius: 100px;
+}

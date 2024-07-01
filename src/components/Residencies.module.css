@@ -1,0 +1,60 @@
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+.card {
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  max-width: max-content;
+  margin: auto;
+  transition: all 200ms ease-in;
+  /* text-align: center; */
+}
+
+.cardImage {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.cardPrice {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: green;
+  margin-top: 5px;
+}
+
+.cardDetail {
+  font-size: 1rem;
+  color: gray;
+  margin-top: 5px;
+}
+
+.card:hover {
+  transform: scale(1.015);
+  cursor: pointer;
+  background-color: var(--lightBlue);
+  box-shadow: 0px 72px 48px -50px rgba(136, 160, 255, 0.2);
+}
+
+.swiper-horizontal {
+  overflow: visible;
+}
+
+.buttons > button {
+  font-size: 1.5rem;
+  padding: 0.25rem 0.75rem;
+  color: blue;
+  border: none;
+  border-radius: 1rem;
+  background-color: white;
+}

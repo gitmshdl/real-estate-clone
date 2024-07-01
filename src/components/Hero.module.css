@@ -1,0 +1,85 @@
+.wrapper {
+  color: white;
+  position: relative;
+  padding-bottom: 2rem;
+  min-height: 92.5dvh;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  row-gap: 2rem;
+}
+
+.hero-left {
+  gap: 2rem;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+}
+
+.title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+
+.star {
+  width: 4rem;
+  position: absolute;
+  right: 28%;
+  top: -10%;
+  z-index: -1;
+}
+
+.searchBar {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.375);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.searchBar > input {
+  border: none;
+  outline: none;
+}
+
+.stats {
+  width: 100%;
+}
+
+.stat > :nth-child(1) {
+  font-size: 2rem;
+}
+
+.stat > :last-child {
+  color: lightcoral;
+}
+
+.plus {
+  color: var(--bs-orange);
+  font-size: 2rem;
+}
+
+.imageContainer {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 0 20rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.15);
+}
+
+.imageContainer > img {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  max-width: 464px;
+}

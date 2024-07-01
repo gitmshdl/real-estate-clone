@@ -1,0 +1,26 @@
+.left {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 20rem 0 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.15);
+}
+
+.left > img {
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  max-width: 464px;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.accordion {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,29 @@
+.left {
+  width: 30rem;
+  /* height: 35rem; */
+  overflow: hidden;
+  border: 8px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1rem 0 0 0;
+}
+
+.left > img {
+  width: 100%;
+  height: 100%;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: var(--lightBlue);
+  box-shadow: var(--shadow);
+}
+
+.card:hover {
+  transform: scale(1.0125);
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.navbar {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    (--sailor-blue) 20%
+  ) !important;
+  z-index: 1;
+}
