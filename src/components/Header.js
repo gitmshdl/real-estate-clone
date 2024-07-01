@@ -8,7 +8,7 @@ function Header() {
       <Navbar expand="md" data-bs-theme="dark" className={classes.navbar}>
         <Container className="">
           <Navbar.Brand href="#home" className="ms-5">
-            <TiHomeOutline />
+            <TiHomeOutline /> Sigma House
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="me-5">

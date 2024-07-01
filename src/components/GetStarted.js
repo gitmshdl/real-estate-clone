@@ -4,7 +4,7 @@ import { Button, Container } from "react-bootstrap";
 
 function GetStarted() {
   return (
-    <section>
+    <section className="mb-4">
       <Container>
         <div className={`${classes.container} text-md-center`}>
           <h1 className="primaryText">Connect with Us</h1>

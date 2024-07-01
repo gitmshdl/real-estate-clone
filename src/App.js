@@ -7,6 +7,7 @@ import Residencies from "./components/Residencies";
 import Mission from "./components/Mission";
 import Contact from "./components/Contact";
 import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Mission />
       <Contact />
       <GetStarted />
-      <p>Whereas recognition of the inherent dignity</p>
+      <Footer />
     </div>
   );
 }
