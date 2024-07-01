@@ -2,6 +2,12 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import classes from "./Footer.module.css";
 import { PiWarehouseBold } from "react-icons/pi";
+import {
+  FaFacebookSquare,
+  FaLinkedin,
+  FaRegCopyright,
+  FaTwitter,
+} from "react-icons/fa";
 
 function Footer() {
   return (
@@ -17,6 +23,17 @@ function Footer() {
               intelligence technology to correctly estimate Canadian home values
               in real time.
             </p>
+            <div className={classes.socials}>
+              <button className="">
+                <FaFacebookSquare />
+              </button>
+              <button className="">
+                <FaTwitter />
+              </button>
+              <button className="">
+                <FaLinkedin />
+              </button>
+            </div>
           </Col>
           <Col className={classes["even-columns"]}>
             <h5>
@@ -39,6 +56,13 @@ function Footer() {
             <h6>Terms & Conditions</h6>
           </Col>
         </Row>
+        <hr />
+        <div className={classes.footerContainer}>
+          <span className={classes.copyright}>
+            <FaRegCopyright /> 2024
+          </span>
+          <span className={classes.version}>App Version 1.0</span>
+        </div>
       </Container>
     </div>
   );
