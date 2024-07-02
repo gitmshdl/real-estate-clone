@@ -5,6 +5,7 @@
 .socials {
   display: flex;
   gap: 1rem;
+  padding-bottom: 1rem;
 }
 
 .socials > button {
@@ -36,3 +37,7 @@
 .version {
   text-align: right;
 } */
+
+.even-columns {
+  padding-bottom: 1rem;
+}
